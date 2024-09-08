@@ -1,0 +1,8 @@
+:root {
+    --blue: rgb(52, 152, 219);
+    --dark-blue: rgb(41, 128, 185);
+    --light-blue: rgb(181, 213, 221);
+
+    --gray: rgb(173, 173, 173);
+    --light-gray: rgb(228, 228, 228);
+}

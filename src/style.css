@@ -1,0 +1,91 @@
+@import url("colors.css");
+
+* {
+    margin:0;
+    padding:0;
+    font-family: system-ui;
+}
+
+body {
+    text-align: center;
+    background: var(--bg-color);
+}
+
+header {
+    color: white;
+    background-color: var(--blue);
+    margin: 5px 0;
+    padding-bottom: 15px;
+    border-bottom: 4px solid var(--dark-blue);
+}
+
+#form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+}
+
+form {
+    background-color: var(--light-gray);
+    border: 2px solid var(--gray);
+    border-radius: 6px;
+
+    min-width:min-content;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 15px;
+    
+}
+
+form label {
+    font-size: 1.3em;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+}
+
+form input[type="text"],
+     input[type="password"]{
+
+        min-width: 100%;
+        width: 50vw;
+        max-width: 300px;
+        height: 25px;
+
+        border: 1px solid var(--gray);
+        border-radius: 3px;
+}
+form input[type="submit"] {
+    transition-duration: 0.5s;
+    width: 65%;
+    max-width: 200px;
+    height: 40px;
+
+    font-size: 1.2em;
+    margin: 15px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--blue);
+}
+
+form input[type="submit"]:hover {
+    transition-duration: 0.5s;
+
+    cursor: pointer;
+    background-color: var(--dark-blue);
+}
+
+form a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+form a:hover {
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
